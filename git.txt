@@ -1,0 +1,44 @@
+swagger dep
+<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.1.0</version>
+</dependency>
+//h2 db
+
+spring.datasource.url=jdbc:h2:mem:h2db
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=@deepak
+spring.datasource.password=123
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+
+
+spring.h2.console.enabled=true
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
+----
+//sql
+spring.datasource.url=jdbc:mysql://localhost:3306/stockDb
+spring.datasource.username=root
+spring.datasource.password=Deepak3*
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+
+
+
+
+
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
+
+----
+
+list-----------jpa
+ArrayList-------hybernate
+
+
+
